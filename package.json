@@ -6,12 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/intaglioplate312/studious_broccoli_react.git"
-  },
+  "repository": "git+https://github.com/intaglioplate312/studious_broccoli_react.git",
   "keywords": [],
-  "author": "",
+  "author": "intaglioplate312 <helenelizabeth@me.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/intaglioplate312/studious_broccoli_react/issues"
