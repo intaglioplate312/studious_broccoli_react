@@ -3,7 +3,7 @@
 */
 const path = require('path');
 module.exports = {
-    entry: './client/index.js',
+    entry: './App/index.js',
     output: {
         path: path.resolve('dist'),
         filename: 'index_bundle.js'
@@ -13,5 +13,6 @@ module.exports = {
             { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
             { test: /\.jsx$/, loader: 'babel-loader', exclude: /node_modules/ }
         ]
-    }
+    },
+    plugins: [HtmlWebpackPluginConfig]
 }
